@@ -1,7 +1,5 @@
 # Spring Boot
-* Learn how Spring Boot can have you writing applications in minutes.
-* https://www.udemy.com/spring-boot-getting-started  
-* https://github.com/cfaddict/spring-boot-intro
+**Learn how Spring Boot can have you writing applications in minutes.**
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -17,6 +15,9 @@
 
 <!-- /TOC -->
 ## 1. Introduction
+* https://www.udemy.com/spring-boot-getting-started
+* https://github.com/cfaddict/spring-boot-intro
+
 * Stay Connected
     * [twitter.com/springCentral](twitter.com/springCentral)
     * [Youtube: spring.io/video](spring.io/video)

@@ -1,8 +1,21 @@
 # Spring Boot
+* Learn how Spring Boot can have you writing applications in minutes.
+* https://www.udemy.com/spring-boot-getting-started  
+* https://github.com/cfaddict/spring-boot-intro
 
-https://www.udemy.com/spring-boot-getting-started  
-https://github.com/cfaddict/spring-boot-intro
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [1. Introduction](#1-introduction)
+- [2. Development Environment](#2-development-environment)
+	- [Using Spring CLI](#using-spring-cli)
+- [3. Hello, Spring Boot](#3-hello-spring-boot)
+	- [Maven](#maven)
+	- [Gradle](#gradle)
+	- [Starter POMs](#starter-poms)
+	- [Executable JARs](#executable-jars)
+	- [DevTools & Live Reload](#devtools-live-reload)
+
+<!-- /TOC -->
 ## 1. Introduction
 * Stay Connected
     * [twitter.com/springCentral](twitter.com/springCentral)
@@ -26,7 +39,7 @@ https://github.com/cfaddict/spring-boot-intro
     * Spring Boot API - http://docs.spring.io/spring-boot/docs/current/api...
     * Spring IO Platform - http://spring.io/projects
     * Getting Started Guides - http://spring.io/guides
-   
+
 ## 2. Development Environment
 ### Using Spring CLI
 https://docs.spring.io/spring-boot/docs/current/reference/html/cli-using-the-cli.html  
@@ -63,7 +76,7 @@ class ThisWillActuallyRun {
 	}
     //public static void main (String[] args) {
     //  StringApplication.run(HelloWorld.class, args);  	    
-    //}	
+    //}
 }
 ```
 
@@ -108,9 +121,9 @@ public class HomeController {
     </dependency>
 </dependencies>
 ```
-* Spring Boot includes a **Maven plugin** that can package the project as an executable jar. 
+* Spring Boot includes a **Maven plugin** that can package the project as an executable jar.
 Add the plugin in your **<plugins>** section if you want to use it:
-* If you use the Spring Boot starter parent pom, you only need to add the plugin, there is no need for to configure 
+* If you use the Spring Boot starter parent pom, you only need to add the plugin, there is no need for to configure
 it unless you want to change the settings defined in the parent.
 ````xml
 <build>
@@ -132,7 +145,7 @@ it unless you want to change the settings defined in the parent.
 
 ### Gradle
 **Spring Boot Applications with a little Gradle Love**
-* Starter POMs: gradle users can directly import "starter POMs" in their dependencies section. 
+* Starter POMs: gradle users can directly import "starter POMs" in their dependencies section.
 Unlike Maven, there is no "super parent" to import to share come configuration.
 ````gradle
 buildscript {
@@ -172,10 +185,7 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-
     * /target/myproject-0.0.1-SNAPSHOT.jar
 * Gradle using spring-boot plugin
     * gradle build
-    * /build/libs/myproject-0.0.1-SNAPSHOT.jar 
+    * /build/libs/myproject-0.0.1-SNAPSHOT.jar
 
 ### DevTools & Live Reload
 **spring-boot-devtools**
-
- 
-
